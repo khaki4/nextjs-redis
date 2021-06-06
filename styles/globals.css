@@ -1,0 +1,56 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flags {
+  max-width: 500px;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.flags ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.flags li {
+  margin: 0px;
+  padding: 0.5rem 0px;
+}
+
+.flags li button {
+  padding: 0px;
+  border: none;
+  cursor: pointer;
+}
+
+.flags li span {
+  padding: 0px 1rem;
+}
+
+.flags form {
+  margin-top: 1rem;
+}
+
+.flags form input {
+  padding: 0.25rem;
+}
+
+.flags form button {
+  padding: 0.25rem;
+}

@@ -29,7 +29,10 @@ export const checkOne = async (key: string) => {
 
 export const checkAll = async () => {
   const keys = await getKeys();
+  return checkMulti(keys);
+};
 
+export const checkMulti = async (keys: string[]) => {
   if (keys.length === 0) return {};
 
   const values = await redis.mget(keys.map((key) => `flag:${key}`));
